@@ -27,11 +27,11 @@ This aggravates the model perfomance by 20%
 I would try different initial hyperparameter optimizaion, increased the `time_limit` paramater or perhaps not enforce a time limit and make use of other parameters ,e.g. `num_stack_levels`, `num_bag_folds` , `num_bag_sets` and `autostack` as bagging tends to give better performance than HPO.
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
-<img src="model_train_score.png"/>
+<img src="img/model_train_score.png"/>
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-<img src = "model_train_score.png">
+<img src = "img/model_train_score.png">
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 
